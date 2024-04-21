@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.header{
+    height: 12vmin;
+    background-color: #ffc300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-variant:small-caps;
+    text-align: center;
+    color: #001d3d;
+}
+.img{
+    height: 145px;
+    width: 145px;
+    background-image: url(AdobeStock_525236969_Preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    height: 100vh;
+}
+.content{
+    height: 88vmin;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: 90%;
+    width: 32%;
+    background-color: aliceblue;
+    border: 0.35rem solid #001d3d;
+    border-radius: 1rem;
+}
+form{
+    padding: 2rem;
+}
+label{
+    color: #001d3d;
+    font-size: 1.5rem;
+}
+input{
+    height: 2rem;
+    border-radius: 0.35rem;
+    padding-left: 0.35rem;
+}
+button{
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.5rem;
+    background-color: #ffc300;
+    color: #001d3d;
+    margin-top: 1.3rem;
+    margin-left: 5rem;
+    border-style: none;
+    border-radius: 0.35rem;
+}
